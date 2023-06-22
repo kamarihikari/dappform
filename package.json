@@ -1,0 +1,34 @@
+{
+  "name": "@kamarivale/dappform",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "Decentralized Applications Framework",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kamarivale/dappform.git"
+  },
+  "author": "Kamari Vale <iqlzdt2p@duck.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kamarivale/dappform/issues"
+  },
+  "homepage": "https://github.com/kamarivale/dappform#readme",
+  "devDependencies": {
+    "dotenv": "^16.3.1",
+    "esbuild": "0.18.6",
+    "nodemon": "^2.0.22",
+    "parcel": "^2.9.2"
+  },
+  "dependencies": {
+    "figlet": "^1.6.0",
+    "lodash": "^4.17.21",
+    "pino": "^8.14.1"
+  }
+}
